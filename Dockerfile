@@ -19,7 +19,9 @@ RUN apt-get update && \
         git \
         cron \
         nano \
-        libxml2-dev
+        libxml2-dev \
+        libzip-dev \
+        zip \
 
 # Install soap extention
 RUN docker-php-ext-install soap
